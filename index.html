@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>SimpleUI by pkorac</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>SimpleUI</h1>
+        <p>A simple user interface framework for mobile web apps</p>
+
+        <p class="view"><a href="https://github.com/pkorac/SimpleUI">View the Project on GitHub <small>pkorac/SimpleUI</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/pkorac/SimpleUI/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/pkorac/SimpleUI/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/pkorac/SimpleUI">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>SimpleUI</h1>
+
+<p>By Peter Koraca</p>
+
+<h2>Description</h2>
+
+<p>A lightweight html, css and javascript framework that makes creating mobile web-apps easier. SimpleUI provides you with two things: standard slide and flip transitions between different screens and a css frame for a screen and its header bar, content box and footer bar.</p>
+
+<p>The core idea of Simple UI is to provide you with a completely blank slate on top of which you can build your application. Rather than enhancing your markup with extra html bloat it leaves it untouched. Rather than having a complex stylesheet that you have to override to customise the look of your app it provides you with only the bare essential - header, content, footer. SimpleUI is easy to use and has a very lightweight footprint.</p>
+
+<p>Usage, Demo</p>
+
+<h2>Usage</h2>
+
+<p>To use the SimpleUI you will need to include some files in the head of your document and conform to a simple page structure and linking syntax.</p>
+
+<h3>Including</h3>
+
+<p>Include the following files in the head of your document: </p>
+
+<ul>
+<li>simpleUI.css</li>
+<li>jquery.js (the latest version of jQuery can be downloaded from here)</li>
+<li>simpleUI.js. </li>
+</ul><p>Since SimpleUI uses jquery, the jquery.js needs to be included in the document before simpleUI.js! Any stylesheets that you create need to be included after the simpleUI.css.</p>
+
+<h2>Example:</h2>
+
+<h3>Page Structure</h3>
+
+<p>Each page/screen that you create needs to have a div with the class of "screen". Additionally you can add extra divs inside this div. Which divs you create is completely up to you, but it is recommended to separate your page into three divs with classes "header", "content" and "footer" and then add more divs inside them. The header and footer use fixed positioning so that the content div can scroll under them.</p>
+
+<h2>Example:</h2>
+
+<h3>Transitions</h3>
+
+<p>To transition between pages simply create a link on the page. Add a "transition" attribute to it like such: transition="slide". The supported transitions are:</p>
+
+<ul>
+<li>"slide"</li>
+<li>"slide reverse"</li>
+<li>"flip"</li>
+<li>"flip reverse"</li>
+<li>"fade"</li>
+<li>"fade reverse"
+Example:
+---</li>
+</ul><h3>No Ajax</h3>
+
+<p>The default behaviour of the SimpleUI.js library is to use ajax to load the new pages. If you would like to link without using ajax add a "noajax" attribute to your link (this is useful for linking to files or external sites). Keep in mind that the transitions only work with ajax.</p>
+
+<h2>Example:</h2>
+
+<h3>ScreenLoaded Event</h3>
+
+<p>asfasdf</p>
+
+<p>Have Fun</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/pkorac">pkorac</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
