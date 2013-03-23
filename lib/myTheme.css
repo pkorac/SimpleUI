@@ -1,0 +1,129 @@
+/* 
+////////////////////////////////////////////////
+	My Theme
+////////////////////////////////////////////////
+*/
+
+/* The Basics */
+
+body{
+	background: #073642;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.screen{
+	background: #f5f5f5;	
+}
+
+.header{
+	background: #0e5479;
+	padding-top: 13px;
+	height: 32px;
+	text-align: center;
+	color: white;
+	text-shadow: 0px -1px 1.5px black;
+	font-weight: bold;
+}
+
+.content{
+	background: #f5f5f5;
+	margin-top: 45px;
+	margin-bottom: 50px;
+	padding: 15px;
+	text-align: justify;
+	font-size: 0.9em;
+}
+
+.footer{
+	background: #073642;
+	padding-top: 15px;
+	height: 35px;
+	text-align: center;
+	font-size: 0.8em;
+	color: white;
+}
+
+
+/* Buttons */
+
+.button{
+	text-decoration: none;
+	display: inline-block;
+	font-size: 11pt;
+	padding: 7px;
+	background: #333333;
+	color: #fff;
+	border: 1px solid grey;
+	-webkit-tap-highlight-color: #000;
+	-webkit-border-radius: 4px;
+}
+
+.button:hover{
+	background: #93a1a1;
+}
+
+
+.save{
+	background: #70ad38;
+}
+
+.add{
+	background: #007093;
+}
+
+
+.delete{
+	background: #7e0000;
+}
+
+.cancel{
+	background: #808080;
+}
+
+.left{
+	position: absolute;
+	left: 0px;
+}
+
+.right{
+	position: absolute;
+	right: 0px;
+}
+
+.header .left{
+	left: 15px;
+	top: 6px;
+}
+
+.header .right{
+	right: 15px;
+	top: 6px;
+}
+
+.footer .left{
+	left: 15px;
+	top: 8px;
+}
+
+.footer .right{
+	right: 15px;
+	top: 8px;
+}
+
+
+
+/* Extra stuff */
+
+.centred{
+	text-align: center;
+}
+
+.licence{
+	text-align: center;
+	position: absolute;
+	bottom: 7px;
+}
+
+li{
+	margin-left: 15px;
+}
